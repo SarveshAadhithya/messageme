@@ -90,6 +90,6 @@ io.on('connection', socket => {
 })
 
 
-//const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
-server.listen(80, () => console.log(`Server running on port 3030`))
+server.listen(PORT, () => console.log(`Server running on port 3030`))
