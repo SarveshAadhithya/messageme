@@ -1,5 +1,5 @@
 {
-  "name": "chatcord",
+  "name": "messageme",
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
@@ -7,6 +7,9 @@
     "start": "node server",
     "dev": "nodemon server"
   },
+    "engines": {
+    "node": ">=14 <15"
+  }
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
