@@ -41,7 +41,7 @@ a {
 }
 
 .chat-header {
-	background: var(--dark-color-a);
+	background: #3F7E89;
 	color: rgb(192, 22, 22);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -49,6 +49,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	border-bottom: 4px solid #391638;
 }
 
 .chat-main {
@@ -57,7 +58,7 @@ a {
 }
 
 .chat-sidebar {
-	background: var(--dark-color-b);
+	background: #3F7E89;
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
@@ -106,11 +107,12 @@ a {
 
 .chat-form-container {
 	padding: 20px 30px;
-	background-color: green;
+	background-color: white;
 }
 
 .chat-form-container form {
 	display: flex;
+
 }
 
 .chat-form-container input[type='text'] {
