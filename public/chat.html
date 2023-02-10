@@ -10,17 +10,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/stylee.css" />
-    <title>ChatCord App</title>
+    <title>MessageMe</title>
   </head>
-  <body>
-    <div class="chat-container" id="chat">
+  <body bgcolor="#893F86">
+    <div class="chat-container" style = "height:500px" id="chat">
       <header class="chat-header">
-        <h1><i class="fas fa-smile"></i> MessageMe</h1>
-        <a id="leave-btn" class="btn">Leave Room</a>
-      </header>
+        <h3 style="position:relative;color:black;top:-15px">MessageMe</h3>
+        <h6 style="position:relative;color:black;top:10px;left:-100px" >*view as Desktop-site to display the room name and users*</h6>      
+          </header>
       <main class="chat-main">
         <div class="chat-sidebar">
-          <h3><i class="fas fa-comments"></i> Room Name:</h3>
+          <h3><i class="fas fa-comments"></i> Room:</h3>
           <h2 id="room-name"></h2>
           <h3><i class="fas fa-users"></i> Users</h3>
           <ul id="users"></ul>
@@ -35,15 +35,11 @@
             placeholder="Enter Message"
             required
             autocomplete="off"
+            
           />
           <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
         </form>
-        <form method='POST'enctype='multipart/form-data' id="upload-form"  >
-          <input type='file' name="image" id='img'/>
-          <div style="position:relative;left:-70px;top:2px;background-color:pruple;">
-            <button id="imgbtn">UPLOAD</button>
-          </div>
-        </form>
+        
       </div>
     </div>
 
