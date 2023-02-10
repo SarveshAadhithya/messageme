@@ -1,13 +1,11 @@
-# ChatCord App
-Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI
-[![Run on Repl.it](https://repl.it/badge/github/bradtraversy/chatcord)](https://repl.it/github/bradtraversy/chatcord)
+Messageme
+[![Run on Repl.it](https://repl.it/badge/github/bradtraversy/messageme)](https://repl.it/github/bradtraversy/messageme)
 ## Usage
 ```
+Got my frontend works(html and css) from one of the opensource developer since I made this project just to test my javascript and node skills
 npm install
 npm run dev
 
-Go to localhost:3000
+Go to localhost:80
 ```
 
-## Notes
-The *_html_css* folder is just a starter template to follow along with the tutorial at https://www.youtube.com/watch?v=jD7FnbI76Hg&t=1339s. It is not part of the app
