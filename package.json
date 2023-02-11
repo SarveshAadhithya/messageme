@@ -7,8 +7,6 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-
- "engines": {
   "author": "sarvesh",
   "dependencies": {
     "express": "^4.18.2",
