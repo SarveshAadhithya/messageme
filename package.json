@@ -7,8 +7,8 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-<<<<<<< HEAD
-	  "engines": {
+
+ "engines": {
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
